@@ -1,0 +1,20 @@
+[
+  {
+    "name": "DTU_LES_data_wake_60s_part1.mat",
+    "url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/dda521625a96dce48f138f53b512fdf82db0a266/DTU_LES_data_wake_60s_part1.mat",
+    "commit": "dda521625a96dce48f138f53b512fdf82db0a266",
+    "bytes": 65690176,
+    "sha256": "001b312ba359e65561429a418bd3ea61f0a6e64a33257e72f8575d8b27d95ed0",
+    "status": "downloaded",
+    "git_blob_sha1": "1f344f3a572848e6d76e59ad28e366db77fe0891"
+  },
+  {
+    "name": "DTU_LES_data_wake_60s_part2.mat",
+    "url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/dda521625a96dce48f138f53b512fdf82db0a266/DTU_LES_data_wake_60s_part2.mat",
+    "commit": "dda521625a96dce48f138f53b512fdf82db0a266",
+    "bytes": 65641558,
+    "sha256": "b095cdb7b0f19233fa8ac14015e1e68f615fa394d4b9f11484960b439622f6ab",
+    "status": "downloaded",
+    "git_blob_sha1": "4c00be5fde3379ebd531b828bad591b9e46cd33c"
+  }
+]

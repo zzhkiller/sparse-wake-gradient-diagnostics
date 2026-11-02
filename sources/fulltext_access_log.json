@@ -1,0 +1,20 @@
+[
+  {
+    "name": "sobolev",
+    "url": "https://proceedings.neurips.cc/paper/2017/file/758a06618c69880a6cee5314ee42d52f-Paper.pdf",
+    "status": "downloaded",
+    "bytes": 2544826
+  },
+  {
+    "name": "enginebench",
+    "url": "https://ora.ox.ac.uk/objects/uuid%3A5481ad96-b61d-42ff-a7cd-155436d0ac9a/files/rr207tr72h",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "pinn_pod",
+    "url": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0292127/20734506/105114_1_5.0292127.pdf",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

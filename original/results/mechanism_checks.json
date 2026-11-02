@@ -1,0 +1,68 @@
+{
+  "data_kind": "analytical Gaussian-profile counterexample; not CFD, LES, or field measurements",
+  "sensor_coordinates": [
+    -1.0,
+    1.0
+  ],
+  "sensor_values_profile1": [
+    0.9736378398259555,
+    0.9736378398259555
+  ],
+  "sensor_values_profile2": [
+    0.9736378398259555,
+    0.9736378398259555
+  ],
+  "center_velocity_profile1": 0.4,
+  "center_velocity_profile2": 0.8942774146525035,
+  "physical_units": "dimensionless synthetic coordinates and velocities",
+  "gaussian_widths": [
+    0.4,
+    0.6
+  ],
+  "amplitudes": [
+    0.6,
+    0.10572258534749647
+  ],
+  "weighted_loss_checks": [
+    {
+      "lambda": 0.0,
+      "unrestricted_max_difference_from_conditional_mean": 1.1102230246251565e-16,
+      "unrestricted_expected_velocity_rmse": 0.11544975847983081,
+      "limited_expected_velocity_rmse": 0.1187975943594608,
+      "limited_expected_gradient_rmse": 0.29958816213240175
+    },
+    {
+      "lambda": 0.001,
+      "unrestricted_max_difference_from_conditional_mean": 3.3306690738754696e-16,
+      "unrestricted_expected_velocity_rmse": 0.11544975847983081,
+      "limited_expected_velocity_rmse": 0.1187993538932277,
+      "limited_expected_gradient_rmse": 0.2981643211102351
+    },
+    {
+      "lambda": 0.01,
+      "unrestricted_max_difference_from_conditional_mean": 9.992007221626409e-16,
+      "unrestricted_expected_velocity_rmse": 0.11544975847983081,
+      "limited_expected_velocity_rmse": 0.11889987948454031,
+      "limited_expected_gradient_rmse": 0.28986118799293364
+    },
+    {
+      "lambda": 0.1,
+      "unrestricted_max_difference_from_conditional_mean": 2.886579864025407e-15,
+      "unrestricted_expected_velocity_rmse": 0.11544975847983083,
+      "limited_expected_velocity_rmse": 0.11969948437789636,
+      "limited_expected_gradient_rmse": 0.2789317788841364
+    },
+    {
+      "lambda": 1.0,
+      "unrestricted_max_difference_from_conditional_mean": 1.4654943925052066e-14,
+      "unrestricted_expected_velocity_rmse": 0.11544975847983081,
+      "limited_expected_velocity_rmse": 0.12024116590933924,
+      "limited_expected_gradient_rmse": 0.27779935357180874
+    }
+  ],
+  "central_difference_checkerboard_max_abs": 0.0,
+  "forward_difference_checkerboard_rms": 80.00000000000028,
+  "white_noise_derivative_variance_observed": 1.9933290496033695,
+  "white_noise_derivative_variance_theory": 2.0000000000000147,
+  "conclusion_scope": "Checks algebra and discrete operators only; no claim about LES reconstruction performance."
+}

@@ -1,0 +1,90 @@
+{
+  "source_kind": "author-provided DTU LES subset, not newly simulated data",
+  "author_statement": "60 s wake condition; ambient TI=12.8%; non-yawed demonstration",
+  "array_order": "time,x,y",
+  "shape": [
+    250,
+    286,
+    121
+  ],
+  "time_range_s": [
+    0.0,
+    59.76
+  ],
+  "time_step_s": [
+    0.24
+  ],
+  "x_range_m": [
+    -126.0,
+    1071.0
+  ],
+  "y_range_m": [
+    -252.0,
+    252.0
+  ],
+  "dx_m": [
+    4.2
+  ],
+  "dy_m": [
+    4.2
+  ],
+  "u_range_m_s": [
+    0.031039138600468752,
+    14.302748528389305
+  ],
+  "v_range_m_s": [
+    -5.37045509,
+    4.71211374
+  ],
+  "u_mean_m_s": 8.294055633460248,
+  "v_mean_m_s": 0.1426540279167853,
+  "mat_variables": {
+    "U_LES1": [
+      286,
+      121,
+      125
+    ],
+    "V_LES1": [
+      286,
+      121,
+      125
+    ],
+    "t1": [
+      1,
+      125
+    ],
+    "x_LES": [
+      1,
+      286
+    ],
+    "y_LES": [
+      1,
+      121
+    ]
+  },
+  "mat_variables_part2": {
+    "U_LES2": [
+      286,
+      121,
+      125
+    ],
+    "V_LES2": [
+      286,
+      121,
+      125
+    ],
+    "t2": [
+      1,
+      125
+    ],
+    "x_LES": [
+      1,
+      286
+    ],
+    "y_LES": [
+      1,
+      121
+    ]
+  },
+  "coordinate_warning": "Inspect variables and the mean-field figure before assuming a turbine origin or changing wind direction."
+}

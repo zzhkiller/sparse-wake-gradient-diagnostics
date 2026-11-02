@@ -1,0 +1,733 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2026-03-08T15:58:47Z",
+      "timestamp": 1772985527292,
+      "version": "3.50.1"
+    },
+    "reference-count": 64,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              30
+            ]
+          ],
+          "date-time": "2026-01-30T00:00:00Z",
+          "timestamp": 1769731200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              30
+            ]
+          ],
+          "date-time": "2026-01-30T00:00:00Z",
+          "timestamp": 1769731200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "52401335"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52401335"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Wind Energy"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>The wind direction is closely linked to the power performance and structural loads of wind turbines. Conventional nacelle‐mounted vanes or sonic anemometers face errors associated with airflow distortions caused by turbine blades. Nacelle‐mounted lidar systems offer line‐of‐sight speed measurements from multiple positions ahead of the rotor and rely on wind field reconstruction methods to predict the wind direction. This work considers three methods: the matrix inverse, the velocity azimuth display, and the physics‐informed neural network (PINN)–based methods. The first two are industrialized techniques that assume homogeneous flow. For flat terrain and offshore sites, the inhomogeneity of the mean flow is influenced by time‐averaging windows and turbine wakes. To illustrate the limitations and potential bias of wind direction estimates with homogeneous flow assumptions, we first present the bias using site measurement data. We then formulate a theoretical bias for a typical two‐beam lidar system. Next, we use openly available large eddy simulation data to evaluate the minute‐averaged wind direction estimates produced by the three methods. The first two methods are found to be unreliable, with maximum errors reaching close to 25° in the unwaked scenario and exceeding 30° in the waked case. As for the PINN‐based method, the errors remain within 10° across unwaked, waked, nonyawed, and yawed scenarios, even when only a 2D nonlinear convection equation is used as the physical constraint.</jats:p>",
+    "DOI": "10.1002/we.70098",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2026-01-30T11:42:57Z",
+      "timestamp": 1769773377000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "On Wind Directions Estimated by Nacelle Lidar Under Different Reconstruction Methods"
+    ],
+    "prefix": "10.1002",
+    "volume": "29",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3275-6243",
+        "authenticated-orcid": false,
+        "given": "Feng",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ocean Engineering Shanghai Jiao Tong University  Shanghai China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Wenhao",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ocean Engineering Shanghai Jiao Tong University  Shanghai China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhaoyu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Institute of Remote Sensing Equipment  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Schlipf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wind Energy Technology Institute Flensburg University of Applied Sciences  Flensburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Paolo",
+        "family": "Schito",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering Politecnico di Milano  Milan Italy"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Alberto",
+        "family": "Zasso",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering Politecnico di Milano  Milan Italy"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhen",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ocean Engineering Shanghai Jiao Tong University  Shanghai China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yujin",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Ocean Engineering Shanghai Jiao Tong University  Shanghai China"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_11_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.renene.2016.08.011"
+      },
+      {
+        "key": "e_1_2_11_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.energy.2018.02.059"
+      },
+      {
+        "key": "e_1_2_11_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-3-173-2018"
+      },
+      {
+        "key": "e_1_2_11_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/we.2564"
+      },
+      {
+        "issue": "5",
+        "key": "e_1_2_11_6_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1002/we.348",
+        "article-title": "Modelling and Measuring Flow and Wind Turbine Wakes in Large Wind Farms Offshore",
+        "volume": "12",
+        "author": "Barthelmie R. J.",
+        "year": "2009",
+        "journal-title": "Wind Energy: An International Journal for Progress and Applications in Wind Power Conversion Technology"
+      },
+      {
+        "key": "e_1_2_11_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-2-229-2017"
+      },
+      {
+        "key": "e_1_2_11_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-6-1427-2021"
+      },
+      {
+        "key": "e_1_2_11_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-3-395-2018"
+      },
+      {
+        "key": "e_1_2_11_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.enconman.2022.115786"
+      },
+      {
+        "key": "e_1_2_11_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/1037/3/032011"
+      },
+      {
+        "key": "e_1_2_11_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-9-841-2024"
+      },
+      {
+        "key": "e_1_2_11_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-4-273-2019"
+      },
+      {
+        "key": "e_1_2_11_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/ACC55779.2023.10156444"
+      },
+      {
+        "key": "e_1_2_11_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/we.2493"
+      },
+      {
+        "key": "e_1_2_11_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/524/1/012002"
+      },
+      {
+        "key": "e_1_2_11_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.2969477"
+      },
+      {
+        "key": "e_1_2_11_18_1",
+        "volume-title": "Wind Energy Generation Systems—Part 50‐3: Use of Nacelle‐Mounted Lidars for Wind Measurements",
+        "author": "IEC 61400‐50‐3",
+        "year": "2022"
+      },
+      {
+        "key": "e_1_2_11_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apenergy.2021.117308"
+      },
+      {
+        "key": "e_1_2_11_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.renene.2020.01.027"
+      },
+      {
+        "key": "e_1_2_11_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.renene.2020.04.007"
+      },
+      {
+        "key": "e_1_2_11_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ifacol.2017.08.380"
+      },
+      {
+        "key": "e_1_2_11_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-8-1693-2023"
+      },
+      {
+        "key": "e_1_2_11_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.enconman.2023.117507"
+      },
+      {
+        "key": "e_1_2_11_25_1",
+        "volume-title": "Improved Modeling of Lidar Wind Preview for Wind Turbine Control",
+        "author": "Guo F.",
+        "year": "2023"
+      },
+      {
+        "key": "e_1_2_11_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.renene.2022.05.133"
+      },
+      {
+        "key": "e_1_2_11_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-7-413-2022"
+      },
+      {
+        "key": "e_1_2_11_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/we.1564"
+      },
+      {
+        "key": "e_1_2_11_29_1",
+        "volume-title": "Prospects of Optimization of Energy Production by LIDAR Assisted Control of Wind Turbines",
+        "author": "Schlipf D.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_11_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/we.1824"
+      },
+      {
+        "key": "e_1_2_11_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2018.10.045"
+      },
+      {
+        "key": "e_1_2_11_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apenergy.2021.116641"
+      },
+      {
+        "key": "e_1_2_11_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apenergy.2021.117390"
+      },
+      {
+        "key": "e_1_2_11_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.energy.2024.130401"
+      },
+      {
+        "key": "e_1_2_11_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apenergy.2023.122439"
+      },
+      {
+        "key": "e_1_2_11_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.apenergy.2024.124577"
+      },
+      {
+        "key": "e_1_2_11_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/we.70020"
+      },
+      {
+        "key": "e_1_2_11_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmech.2023.1261017"
+      },
+      {
+        "key": "e_1_2_11_39_1",
+        "volume-title": "Introduction to Micro Meteorology for Wind Energy",
+        "author": "Berg J.",
+        "year": "2013"
+      },
+      {
+        "key": "e_1_2_11_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0022112094001886"
+      },
+      {
+        "key": "e_1_2_11_41_1",
+        "volume-title": "Wind Energy Generation Systems—Part 1: Design Requirements",
+        "author": "IEC 61400‐1",
+        "year": "2019"
+      },
+      {
+        "key": "e_1_2_11_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10546-018-0382-2"
+      },
+      {
+        "key": "e_1_2_11_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5121486"
+      },
+      {
+        "key": "e_1_2_11_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-8-149-2023"
+      },
+      {
+        "key": "e_1_2_11_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1938.0032"
+      },
+      {
+        "key": "e_1_2_11_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/1037/7/072001"
+      },
+      {
+        "key": "e_1_2_11_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/we.1736"
+      },
+      {
+        "key": "e_1_2_11_48_1",
+        "volume-title": "Deep Sea Offshore Wind R&D Conference (DeepWind) 2021",
+        "author": "Bastigkeit I.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_11_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2172/947422"
+      },
+      {
+        "key": "e_1_2_11_50_1",
+        "first-page": "1",
+        "article-title": "Evaluation of Lidar‐Assisted Wind Turbine Control Under Various Turbulence Characteristics",
+        "volume": "2022",
+        "author": "Guo F.",
+        "year": "2022",
+        "journal-title": "Wind Energy Science Discussions"
+      },
+      {
+        "key": "e_1_2_11_51_1",
+        "volume-title": "Lidar‐Assisted Control Concepts for Wind Turbines",
+        "author": "Schlipf D.",
+        "year": "2015"
+      },
+      {
+        "key": "e_1_2_11_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1127/0941-2948/2009/0370"
+      },
+      {
+        "key": "e_1_2_11_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/2626/1/012020"
+      },
+      {
+        "key": "e_1_2_11_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/amt-11-6339-2018"
+      },
+      {
+        "key": "e_1_2_11_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2024.3494248"
+      },
+      {
+        "key": "e_1_2_11_56_1",
+        "volume-title": "A New Framework for Quantifying Lidar Uncertainty",
+        "author": "Newman J. F.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_11_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742‐6596/2265/4/042030"
+      },
+      {
+        "key": "e_1_2_11_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-7-539-2022"
+      },
+      {
+        "key": "e_1_2_11_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-5-451-2020"
+      },
+      {
+        "key": "e_1_2_11_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/amt‐8‐907‐2015"
+      },
+      {
+        "key": "e_1_2_11_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-4-407-2019"
+      },
+      {
+        "key": "e_1_2_11_62_1",
+        "volume-title": "Models in Micrometeorology",
+        "author": "Mann J.",
+        "year": "1994"
+      },
+      {
+        "key": "e_1_2_11_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/wes-9-297-2024"
+      },
+      {
+        "key": "e_1_2_11_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/rs11070867"
+      },
+      {
+        "key": "e_1_2_11_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-6596/1452/1/012088"
+      }
+    ],
+    "container-title": [
+      "Wind Energy"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/we.70098",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/we.70098",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/we.70098",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2026-03-08T10:08:32Z",
+      "timestamp": 1772964512000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/we.70098"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          30
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/we.70098"
+    ],
+    "URL": "https://doi.org/10.1002/we.70098",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1095-4244",
+      "1099-1824"
+    ],
+    "issn-type": [
+      {
+        "value": "1095-4244",
+        "type": "print"
+      },
+      {
+        "value": "1099-1824",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-09-03",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-01-12",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-01-30",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e70098"
+  }
+}

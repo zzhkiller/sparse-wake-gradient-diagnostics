@@ -1,0 +1,9 @@
+test_conditional_mean_weight_invariance (test_numerics.NumericalChecks.test_conditional_mean_weight_invariance) ... ok
+test_derivative_axis_and_units (test_numerics.NumericalChecks.test_derivative_axis_and_units) ... ok
+test_gradient_backprop_finite_difference (test_numerics.NumericalChecks.test_gradient_backprop_finite_difference) ... ok
+test_mat_reader_shape_and_fortran_order (test_numerics.NumericalChecks.test_mat_reader_shape_and_fortran_order) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.039s
+
+OK

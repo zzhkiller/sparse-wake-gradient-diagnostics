@@ -1,0 +1,58 @@
+[
+  {
+    "name": "dtu_datacite",
+    "url": "https://api.datacite.org/dois/10.11583/DTU.10259936.v1",
+    "checked_utc": "2026-10-30T16:20:22.558582+00:00",
+    "status": 200,
+    "bytes": 13312,
+    "sha256": "a3c61d69c8f22af656c45c90e1e02c9e4c9ed8536f89061b2e5eb527703c48d4"
+  },
+  {
+    "name": "author_repository",
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents",
+    "checked_utc": "2026-10-30T16:20:22.559011+00:00",
+    "status": 200,
+    "bytes": 7767,
+    "sha256": "44172e90b4d160e932915f64c2c91c775357c1116ad895feab75fa6d1fa4aa55"
+  },
+  {
+    "name": "author_commit",
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/commits/main",
+    "checked_utc": "2026-10-30T16:20:22.559134+00:00",
+    "status": 200,
+    "bytes": 6092,
+    "sha256": "7ac01a76f21db98811fa6ecf53b07b6710c4f020f7a33750758fc2a351cc62b2"
+  },
+  {
+    "name": "rom_wfe_crossref",
+    "url": "https://api.crossref.org/works/10.1016/j.energy.2024.130772",
+    "checked_utc": "2026-10-30T16:20:22.559180+00:00",
+    "status": 200,
+    "bytes": 27141,
+    "sha256": "769be5f423ae0c203b0ec45be36ff3d23d602c02c7eb3d0b096f81443f53ec3e"
+  },
+  {
+    "name": "enginebench_crossref",
+    "url": "https://api.crossref.org/works/10.1177/14680874251330354",
+    "checked_utc": "2026-10-30T16:20:23.637074+00:00",
+    "status": 200,
+    "bytes": 21054,
+    "sha256": "2ced154059fbeb3d5c323b98ad00272b72e0c112bb6faa3ff3eeba78dd16621e"
+  },
+  {
+    "name": "wake_experiment_crossref",
+    "url": "https://api.crossref.org/works/10.1126/sciadv.adw8524",
+    "checked_utc": "2026-10-30T16:20:23.709093+00:00",
+    "status": 200,
+    "bytes": 9809,
+    "sha256": "ecbc0123bbd6accd1eacbf2bfc063d89b9b20070e582ab877d4e3cbfe3708f65"
+  },
+  {
+    "name": "pinn_pod_crossref",
+    "url": "https://api.crossref.org/works/10.1063/5.0292127",
+    "checked_utc": "2026-10-30T16:20:24.482890+00:00",
+    "status": 200,
+    "bytes": 24265,
+    "sha256": "96c154c5709fabab6bdcc78c63343a63541683fd3488d5d7dab66028b0d0cd7c"
+  }
+]

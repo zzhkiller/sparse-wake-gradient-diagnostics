@@ -1,0 +1,171 @@
+{"method": "POD-MLP lambda=0", "seed": 11, "lambda": 0.0, "rmse_m_s": 2.6885557544920484, "unobserved_rmse_m_s": 2.6891993038708097, "shear_region_rmse_m_s": 2.8437466128702247, "gradient_rmse_s_inv": 0.25183294373520615}
+{"method": "POD-MLP lambda=0.1", "seed": 11, "lambda": 0.1, "rmse_m_s": 2.6367793989342556, "unobserved_rmse_m_s": 2.6374158648470054, "shear_region_rmse_m_s": 2.8046194443109838, "gradient_rmse_s_inv": 0.24366045779682485}
+{"method": "POD-MLP lambda=1", "seed": 11, "lambda": 1.0, "rmse_m_s": 2.650756052921158, "unobserved_rmse_m_s": 2.6514212161499, "shear_region_rmse_m_s": 2.8613201615038086, "gradient_rmse_s_inv": 0.2459641262394345}
+{"method": "POD-MLP lambda=0", "seed": 22, "lambda": 0.0, "rmse_m_s": 3.3775368286103196, "unobserved_rmse_m_s": 3.3784346650295816, "shear_region_rmse_m_s": 3.567951753050247, "gradient_rmse_s_inv": 0.34246862095622826}
+{"method": "POD-MLP lambda=0.1", "seed": 22, "lambda": 0.1, "rmse_m_s": 3.3747483449410143, "unobserved_rmse_m_s": 3.3756245849977247, "shear_region_rmse_m_s": 3.564620525065257, "gradient_rmse_s_inv": 0.3415295224668807}
+{"method": "POD-MLP lambda=1", "seed": 22, "lambda": 1.0, "rmse_m_s": 3.3963447763835486, "unobserved_rmse_m_s": 3.397217819222899, "shear_region_rmse_m_s": 3.587791788709351, "gradient_rmse_s_inv": 0.3446309433061355}
+{"method": "POD-MLP lambda=0", "seed": 33, "lambda": 0.0, "rmse_m_s": 2.6969918924042338, "unobserved_rmse_m_s": 2.697582102612962, "shear_region_rmse_m_s": 3.0057799932603757, "gradient_rmse_s_inv": 0.2414916506335715}
+{"method": "POD-MLP lambda=0.1", "seed": 33, "lambda": 0.1, "rmse_m_s": 2.680345875940042, "unobserved_rmse_m_s": 2.6809123344659196, "shear_region_rmse_m_s": 2.9850162850782604, "gradient_rmse_s_inv": 0.23888005491580683}
+{"method": "POD-MLP lambda=1", "seed": 33, "lambda": 1.0, "rmse_m_s": 2.6965583377423217, "unobserved_rmse_m_s": 2.697077581922772, "shear_region_rmse_m_s": 2.9927059861760696, "gradient_rmse_s_inv": 0.23972244385307562}
+[
+  {
+    "method": "IDW 16 sensors",
+    "runs": 1,
+    "rmse_m_s": {
+      "mean": 1.403344924815744,
+      "std": null
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 1.4043656322330351,
+      "std": null
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 1.5963369354072192,
+      "std": null
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.0790444668187244,
+      "std": null
+    }
+  },
+  {
+    "method": "Training mean",
+    "runs": 1,
+    "rmse_m_s": {
+      "mean": 1.9071695179722852,
+      "std": null
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 1.9065844708799793,
+      "std": null
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 2.02710262155956,
+      "std": null
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.08779739747295157,
+      "std": null
+    }
+  },
+  {
+    "method": "Persistence previous frame",
+    "runs": 1,
+    "rmse_m_s": {
+      "mean": 0.09023971497157156,
+      "std": null
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 0.09023778381035662,
+      "std": null
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 0.10025849858069547,
+      "std": null
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.010942303465664192,
+      "std": null
+    }
+  },
+  {
+    "method": "POD-LSQ 8 modes",
+    "runs": 1,
+    "rmse_m_s": {
+      "mean": 3.491902498776872,
+      "std": null
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 3.493852916152757,
+      "std": null
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 3.6858589441750165,
+      "std": null
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.2864067807893516,
+      "std": null
+    }
+  },
+  {
+    "method": "POD projection oracle",
+    "runs": 1,
+    "rmse_m_s": {
+      "mean": 1.778682681030819,
+      "std": null
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 1.7781517906120718,
+      "std": null
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 1.888876011477825,
+      "std": null
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.09399634728556165,
+      "std": null
+    }
+  },
+  {
+    "method": "POD-MLP lambda=0",
+    "runs": 3,
+    "rmse_m_s": {
+      "mean": 2.921028158502201,
+      "std": 0.3953706065435706
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 2.9217386905044513,
+      "std": 0.39553252418642115
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 3.1391594530602824,
+      "std": 0.3800800330038104
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.27859773844166863,
+      "std": 0.05555495307031577
+    }
+  },
+  {
+    "method": "POD-MLP lambda=0.1",
+    "runs": 3,
+    "rmse_m_s": {
+      "mean": 2.8972912066051038,
+      "std": 0.41406339936127107
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 2.8979842614368834,
+      "std": 0.4142199835061151
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 3.1180854181515003,
+      "std": 0.39709061474626123
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.2746900117265041,
+      "std": 0.057934041891929966
+    }
+  },
+  {
+    "method": "POD-MLP lambda=1",
+    "runs": 3,
+    "rmse_m_s": {
+      "mean": 2.9145530556823425,
+      "std": 0.4178718809944997
+    },
+    "unobserved_rmse_m_s": {
+      "mean": 2.915238872431857,
+      "std": 0.41802978936464336
+    },
+    "shear_region_rmse_m_s": {
+      "mean": 3.1472726454630764,
+      "std": 0.3871154807108937
+    },
+    "gradient_rmse_s_inv": {
+      "mean": 0.2767725044662152,
+      "std": 0.058849940026277386
+    }
+  }
+]

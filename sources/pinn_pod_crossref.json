@@ -1,0 +1,916 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2026-09-30T07:50:21Z",
+      "timestamp": 1790754621309,
+      "version": "4.1.0"
+    },
+    "reference-count": 62,
+    "publisher": "AIP Publishing",
+    "issue": "10",
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "12002137"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "12002137"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100010246",
+        "name": "Postdoctoral Science Foundation of Jiangsu Province",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2021K110B"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021K110B"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100010246",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002858",
+        "name": "China Postdoctoral Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Grant No. 2023M742935"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Grant No. 2023M742935"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002858",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "pubs.aip.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Wind turbine wake modeling from sparse measurements remains challenging due to spatiotemporal variability and limited full-field data availability in operational wind farms. This study introduces a physics-informed neural network with proper orthogonal decomposition (PINN-POD) framework for reconstructing unsteady wake fields and extracting coherent structures from sparse velocity measurements. The reconstruction is formulated as a physics-constrained forward problem, where PINNs estimate velocity fields by minimizing the measurement error and the Navier–Stokes equation residuals. Sparse spatial–temporal coordinates serve as inputs while automatic differentiation enforces physical constraints. POD then extracts dominant coherent structures while assessing training convergence through loss reduction and variations in mode energy. A dual-convergence strategy tracks training loss and mode variation, with robustness assessed under different noise levels. The framework accurately reconstructs instantaneous and time-averaged wake features for both non-yaw and yaw conditions. Comprehensive noise analysis reveals reconstruction errors below 5.81% for non-yaw cases and 7.00% for 30° yaw cases under 24% measurement noise, with errors concentrated in high-gradient shear regions while preserving wake core accuracy. Sensor distribution analysis demonstrates that 5 × 3 configurations provide adequate reconstruction quality, requiring minimum five cross-stream sensors for acceptable flow structure capture. Extracted POD modes preserve spatial coherence and capture characteristic wake asymmetries. PINN-POD demonstrates superior flow continuity and mode accuracy, especially under noisy conditions. The approach enables physics-consistent wake reconstruction and reduced-order modeling from limited measurements, providing practical utility for wind farm monitoring, control, and layout optimization.</jats:p>",
+    "DOI": "10.1063/5.0292127",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2025-10-06T13:29:31Z",
+      "timestamp": 1759757371000
+    },
+    "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Sparse wind turbine wake reconstruction using physics-informed proper orthogonal decomposition"
+    ],
+    "prefix": "10.1063",
+    "volume": "37",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4020-883X",
+        "authenticated-orcid": false,
+        "given": "Zhaohui",
+        "family": "Luo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Research Center of Fluid Machinery Engineering and Technology, Jiangsu University 1 , Zhenjiang 212013, Jiangsu Province,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8871-6569",
+        "authenticated-orcid": false,
+        "given": "Longyan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Center of Fluid Machinery Engineering and Technology, Jiangsu University 1 , Zhenjiang 212013, Jiangsu Province,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-5237-8455",
+        "authenticated-orcid": false,
+        "given": "Jian",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Center of Fluid Machinery Engineering and Technology, Jiangsu University 1 , Zhenjiang 212013, Jiangsu Province,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3257-3789",
+        "authenticated-orcid": false,
+        "given": "Jianping",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Center of Fluid Machinery Engineering and Technology, Jiangsu University 1 , Zhenjiang 212013, Jiangsu Province,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3059-0104",
+        "authenticated-orcid": false,
+        "given": "Andy Chit",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LKC Faculty of Engineering and Science, Universiti Tunku Abdul Rahman 2 , Bandar Sungai Long, Cheras, 43000 Kajang, Selangor,",
+            "place": [
+              "Malaysia"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "317",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2025100609292779000_c1",
+        "doi-asserted-by": "publisher",
+        "first-page": "2919",
+        "DOI": "10.3390/en17122919",
+        "article-title": "Advancing wind energy efficiency: A systematic review of aerodynamic optimization in wind turbine blade design",
+        "volume": "17",
+        "year": "2024",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "2025100609292779000_c2",
+        "doi-asserted-by": "publisher",
+        "first-page": "3953",
+        "DOI": "10.1002/sd.2885",
+        "article-title": "Machine learning and the renewable energy revolution: Exploring solar and wind energy solutions for a sustainable future including innovations in energy storage",
+        "volume": "32",
+        "year": "2024",
+        "journal-title": "Sustainable Dev."
+      },
+      {
+        "key": "2025100609292779000_c3",
+        "first-page": "276",
+        "article-title": "Influence of double-fork blade tip structure on wind turbine vibration",
+        "volume": "40",
+        "year": "2022",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c4",
+        "first-page": "167",
+        "article-title": "Effect of wind direction changing speed on power and speed of wind turbine",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c5",
+        "first-page": "1255",
+        "article-title": "Influence of dynamic wind direction on evolution law of wind turbine wake",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c6",
+        "first-page": "173",
+        "article-title": "Vortex characteristics of horizontal axis wind turbine blade and wake flow field based on dynamic mesh",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c7",
+        "doi-asserted-by": "publisher",
+        "first-page": "576",
+        "DOI": "10.3969/j.issn.1674-8530.21.0160",
+        "article-title": "Influence of centrifugal force and aerodynamic load on strain characteristics of wind turbine blades",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c8",
+        "doi-asserted-by": "publisher",
+        "first-page": "065159",
+        "DOI": "10.1063/5.0213321",
+        "article-title": "Toward ultra-efficient high-fidelity predictions of wind turbine wakes: Augmenting the accuracy of engineering models with machine learning",
+        "volume": "36",
+        "year": "2024",
+        "journal-title": "Phys Fluids"
+      },
+      {
+        "key": "2025100609292779000_c9",
+        "doi-asserted-by": "publisher",
+        "first-page": "115130",
+        "DOI": "10.1016/j.enconman.2021.115130",
+        "article-title": "A data-driven analytical model for wind turbine wakes using machine learning method",
+        "volume": "252",
+        "year": "2022",
+        "journal-title": "Energy Convers. Manage."
+      },
+      {
+        "key": "2025100609292779000_c10",
+        "doi-asserted-by": "publisher",
+        "first-page": "116949",
+        "DOI": "10.1016/j.enconman.2023.116949",
+        "article-title": "Smart cooperative control scheme for large-scale wind farms based on a double-layer machine learning framework",
+        "volume": "285",
+        "year": "2023",
+        "journal-title": "Energy Convers. Manage."
+      },
+      {
+        "key": "2025100609292779000_c11",
+        "doi-asserted-by": "publisher",
+        "first-page": "119888",
+        "DOI": "10.1016/j.enconman.2025.119888",
+        "article-title": "Deep reinforcement learning-driven wind farm flow control considering dynamic wind",
+        "volume": "337",
+        "year": "2025",
+        "journal-title": "Energy Convers. Manage."
+      },
+      {
+        "key": "2025100609292779000_c12",
+        "doi-asserted-by": "publisher",
+        "first-page": "12845",
+        "DOI": "10.1109/TASE.2025.3548565",
+        "article-title": "Wind farm control via offline reinforcement learning with adversarial training",
+        "volume": "22",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Autom. Sci. Eng."
+      },
+      {
+        "key": "2025100609292779000_c13",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.1007/s11630-024-2074-1",
+        "article-title": "A wind tunnel experimental study on the wake characteristics of a horizontal axis wind turbine",
+        "volume": "34",
+        "year": "2025",
+        "journal-title": "J. Therm. Sci."
+      },
+      {
+        "key": "2025100609292779000_c14",
+        "first-page": "778",
+        "article-title": "Analysis of wind turbine's velocity deficit, recovery and output power losses using a hybrid CFD-Jensen's wake model scheme",
+        "year": "2019"
+      },
+      {
+        "key": "2025100609292779000_c15",
+        "doi-asserted-by": "publisher",
+        "first-page": "7757",
+        "DOI": "10.3390/en15207757",
+        "article-title": "Far-wake meandering of a wind turbine model with imposed motions: An experimental S-PIV analysis",
+        "volume": "15",
+        "year": "2022",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "2025100609292779000_c16",
+        "doi-asserted-by": "publisher",
+        "first-page": "2247",
+        "DOI": "10.3390/en18092247",
+        "article-title": "Advancements in wind farm control: Modelling and multi-objective optimization through yaw-based wake steering",
+        "volume": "18",
+        "year": "2025",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "2025100609292779000_c17",
+        "doi-asserted-by": "publisher",
+        "first-page": "032006",
+        "DOI": "10.1088/2516-1083/ac6cc1",
+        "article-title": "Wind farm control technologies: From classical control to reinforcement learning",
+        "volume": "4",
+        "year": "2022",
+        "journal-title": "Prog. Energy"
+      },
+      {
+        "key": "2025100609292779000_c18",
+        "doi-asserted-by": "publisher",
+        "first-page": "072004",
+        "DOI": "10.1088/1742-6596/1037/7/072004",
+        "article-title": "Data-driven machine learning for wind plant flow modeling",
+        "volume": "1037",
+        "year": "2018",
+        "journal-title": "J. Phys."
+      },
+      {
+        "key": "2025100609292779000_c19",
+        "doi-asserted-by": "publisher",
+        "first-page": "778",
+        "DOI": "10.3969/j.issn.1674-8530.22.0197",
+        "article-title": "Research progress and development trend of wind farm power prediction",
+        "volume": "42",
+        "year": "2024",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c20",
+        "doi-asserted-by": "publisher",
+        "first-page": "117390",
+        "DOI": "10.1016/j.apenergy.2021.117390",
+        "article-title": "Three-dimensional spatiotemporal wind field reconstruction based on physics-informed deep learning",
+        "volume": "300",
+        "year": "2021",
+        "journal-title": "Appl. Energy"
+      },
+      {
+        "key": "2025100609292779000_c21",
+        "doi-asserted-by": "publisher",
+        "first-page": "273",
+        "DOI": "10.3969/j.issn.1674-8530.22.0026",
+        "article-title": "Experimental study on dynamic stress of blades with different materials under wind direction change",
+        "volume": "42",
+        "year": "2024",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c22",
+        "doi-asserted-by": "publisher",
+        "first-page": "499",
+        "DOI": "10.3969/j.issn.1674-8530.21.0248",
+        "article-title": "Experimental study on influence of dynamic change of crosswind angle on strain of wind turbine blades",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c23",
+        "doi-asserted-by": "publisher",
+        "first-page": "701",
+        "DOI": "10.3969/j.issn.1674-8530.20.0186",
+        "article-title": "Numerical simulation of aerodynamic characteristics of straight-bladed vertical axis wind turbine with large solidities",
+        "volume": "40",
+        "year": "2022",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c24",
+        "first-page": "87",
+        "article-title": "Atmospheric stability based on mesoscale simulations and it's impact on operational characteristics of wind farms",
+        "volume": "43",
+        "year": "2025",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c25",
+        "first-page": "265",
+        "article-title": "Numerical simulation of starting performance of vertical axis wind turbine with B-Spline curve wind gathering devices",
+        "volume": "42",
+        "year": "2024",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c26",
+        "doi-asserted-by": "publisher",
+        "first-page": "431",
+        "DOI": "10.1002/we.348",
+        "article-title": "Modelling and measuring flow and wind turbine wakes in large wind farms offshore",
+        "volume": "12",
+        "year": "2009",
+        "journal-title": "Wind Energy"
+      },
+      {
+        "key": "2025100609292779000_c27",
+        "doi-asserted-by": "publisher",
+        "first-page": "2247",
+        "DOI": "10.3390/rs11192247",
+        "article-title": "Characterization of wind turbine wakes with nacelle-mounted Doppler LiDARs and model validation in the presence of wind veer",
+        "volume": "11",
+        "year": "2019",
+        "journal-title": "Remote Sens."
+      },
+      {
+        "key": "2025100609292779000_c28",
+        "doi-asserted-by": "publisher",
+        "first-page": "092106",
+        "DOI": "10.1088/1742-6596/2767/9/092106",
+        "article-title": "Sensitivity of the prediction of wind turbine wakes to the sub-grid scale model",
+        "volume": "2767",
+        "year": "2024",
+        "journal-title": "J. Phys."
+      },
+      {
+        "key": "2025100609292779000_c29",
+        "doi-asserted-by": "publisher",
+        "first-page": "39",
+        "DOI": "10.1007/s10546-024-00884-8",
+        "article-title": "A moving surface drag model for LES of wind over waves",
+        "volume": "190",
+        "year": "2024",
+        "journal-title": "Boundary-Layer Meteorol."
+      },
+      {
+        "key": "2025100609292779000_c30",
+        "doi-asserted-by": "publisher",
+        "first-page": "012031",
+        "DOI": "10.1088/1742-6596/2018/1/012031",
+        "article-title": "Hybrid analysis and modeling for next generation of digital twins",
+        "volume": "2018",
+        "year": "2021",
+        "journal-title": "J. Phys."
+      },
+      {
+        "key": "2025100609292779000_c31",
+        "doi-asserted-by": "publisher",
+        "first-page": "45",
+        "DOI": "10.46610/JoRTM.2024.v09i02.005",
+        "article-title": "State-of-the-art CFD simulation: A review of techniques, validation methods, and application scenarios",
+        "volume": "9",
+        "year": "2024",
+        "journal-title": "J. Recent Trends Mech."
+      },
+      {
+        "key": "2025100609292779000_c32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1048",
+        "DOI": "10.1016/j.rser.2015.12.229",
+        "article-title": "Wake effect modeling: A review of wind farm layout optimization using Jense's model",
+        "volume": "58",
+        "year": "2016",
+        "journal-title": "Renewable Sustainable Energy Rev."
+      },
+      {
+        "key": "2025100609292779000_c33",
+        "doi-asserted-by": "publisher",
+        "first-page": "116",
+        "DOI": "10.1016/j.renene.2014.01.002",
+        "article-title": "A new analytical model for wind-turbine wakes",
+        "volume": "70",
+        "year": "2014",
+        "journal-title": "Renewable Energy"
+      },
+      {
+        "key": "2025100609292779000_c34",
+        "doi-asserted-by": "crossref",
+        "first-page": "6171",
+        "DOI": "10.1007/s00521-021-06799-6",
+        "article-title": "Data-driven wind turbine wake modeling via probabilistic machine learning",
+        "volume": "34",
+        "year": "2022",
+        "journal-title": "Neural Comput. Appl."
+      },
+      {
+        "key": "2025100609292779000_c35",
+        "doi-asserted-by": "publisher",
+        "first-page": "689",
+        "DOI": "10.3969/j.issn.1674-8530.19.0208",
+        "article-title": "Effect of rotation speed on mode of fan blades and its Weibull fitting",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c36",
+        "doi-asserted-by": "publisher",
+        "first-page": "561",
+        "DOI": "10.1090/qam/910462",
+        "article-title": "Turbulence and the dynamics of coherent structures. I. Coherent structures",
+        "volume": "45",
+        "year": "1987",
+        "journal-title": "Q. Appl. Math."
+      },
+      {
+        "key": "2025100609292779000_c37",
+        "unstructured": "S.\n            Salavatidezfouli\n          , A.Sheidani, K.Bakhshaei, A.Safari, A.Hajisharifi, G.Stabile, “Modal analysis of the wake shed behind a horizontal axis wind turbine with flexible blades,” arXiv:2311.08130 (2024)."
+      },
+      {
+        "key": "2025100609292779000_c38",
+        "first-page": "191",
+        "article-title": "Research on the wake of the ducted propeller with POD and DMD",
+        "year": "2020"
+      },
+      {
+        "key": "2025100609292779000_c39",
+        "doi-asserted-by": "publisher",
+        "first-page": "106639",
+        "DOI": "10.1016/j.ijepes.2020.106639",
+        "article-title": "Data driven learning model predictive control of offshore wind farms",
+        "volume": "127",
+        "year": "2021",
+        "journal-title": "Int. J. Electr. Power Energy Syst."
+      },
+      {
+        "key": "2025100609292779000_c40",
+        "volume-title": "Data-Driven Wind Farm Modeling and Control",
+        "year": "2024"
+      },
+      {
+        "key": "2025100609292779000_c41",
+        "doi-asserted-by": "publisher",
+        "first-page": "260",
+        "DOI": "10.3969/j.issn.1674-8530.23.0202",
+        "article-title": "Spatiotemporal wake field reconstruction of wind turbine coupled with wind speed measurements",
+        "volume": "43",
+        "year": "2025",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c42",
+        "first-page": "1023",
+        "article-title": "Wind turbine fault diagnostic model based on BES-ELM",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "J. Drain. Irrig. Mach. Eng."
+      },
+      {
+        "key": "2025100609292779000_c43",
+        "doi-asserted-by": "publisher",
+        "first-page": "686",
+        "DOI": "10.1016/j.jcp.2018.10.045",
+        "article-title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+        "volume": "378",
+        "year": "2019",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "2025100609292779000_c44",
+        "doi-asserted-by": "publisher",
+        "first-page": "109951",
+        "DOI": "10.1016/j.jcp.2020.109951",
+        "article-title": "NSFnets (Navier-Stokes flow nets): Physics-informed neural networks for the incompressible Navier-Stokes equations",
+        "volume": "426",
+        "year": "2021",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "2025100609292779000_c45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1727",
+        "DOI": "10.1007/s10409-021-01148-1",
+        "article-title": "Physics-informed neural networks (PINNs) for fluid mechanics: A review",
+        "volume": "37",
+        "year": "2021",
+        "journal-title": "Acta Mech. Sin."
+      },
+      {
+        "key": "2025100609292779000_c46",
+        "doi-asserted-by": "publisher",
+        "first-page": "130401",
+        "DOI": "10.1016/j.energy.2024.130401",
+        "article-title": "Dynamic wake field reconstruction of wind turbine through physics-informed neural network and sparse LiDAR data",
+        "volume": "291",
+        "year": "2024",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "2025100609292779000_c47",
+        "doi-asserted-by": "publisher",
+        "first-page": "434",
+        "DOI": "10.1007/s12303-025-00024-5",
+        "article-title": "Study on the influence of water contents and freeze–thaw cycles on coal pore structure during liquid nitrogen freeze–thaw process",
+        "volume": "29",
+        "year": "2025",
+        "journal-title": "Geosci. J."
+      },
+      {
+        "key": "2025100609292779000_c48",
+        "doi-asserted-by": "publisher",
+        "first-page": "96",
+        "DOI": "10.1007/s40430-025-05417-z",
+        "article-title": "Characteristics analysis of nitrogen gas fracturing in coal treated by liquid nitrogen freeze–thaw based on numerical model",
+        "volume": "47",
+        "year": "2025",
+        "journal-title": "J. Braz. Soc. Mech. Sci. Eng."
+      },
+      {
+        "key": "2025100609292779000_c49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y.\n            Li\n           and L.Zhang, “Physics-informed neural networks for enhanced interface preservation in Lattice Boltzmann multiphase simulations,” arXiv:2504.10539 (2025).",
+        "DOI": "10.1109/ACDSA65407.2025.11166586"
+      },
+      {
+        "key": "2025100609292779000_c50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y.\n            Li\n          , “LBM-GNN: Graph neural network enhanced Lattice Boltzmann method,” arXiv:2504.14494 (2025).",
+        "DOI": "10.1109/ACDSA65407.2025.11166127"
+      },
+      {
+        "issue": "1",
+        "key": "2025100609292779000_c51",
+        "doi-asserted-by": "publisher",
+        "first-page": "16740",
+        "DOI": "10.1038/s41598-025-99354-5",
+        "article-title": "Physics informed neural networks for fluid flow analysis with repetitive parameter initialization",
+        "volume": "15",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "2025100609292779000_c52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1588",
+        "DOI": "10.1016/j.apenergy.2019.01.165",
+        "article-title": "Load response of a floating wind turbine to turbulent atmospheric flow",
+        "volume": "242",
+        "year": "2019",
+        "journal-title": "Appl. Energy"
+      },
+      {
+        "key": "2025100609292779000_c53",
+        "doi-asserted-by": "publisher",
+        "first-page": "N14",
+        "DOI": "10.1080/14685248.2012.668191",
+        "article-title": "A numerical study of the effects of atmospheric and wake turbulence on wind turbine dynamics",
+        "volume": "13",
+        "year": "2012",
+        "journal-title": "J. Turbul."
+      },
+      {
+        "key": "2025100609292779000_c54",
+        "doi-asserted-by": "publisher",
+        "first-page": "841",
+        "DOI": "10.5194/wes-6-841-2021",
+        "article-title": "Wind turbine load validation in wakes using wind field reconstruction techniques and nacelle lidar wind retrievals",
+        "volume": "6",
+        "year": "2021",
+        "journal-title": "Wind Energy Sci."
+      },
+      {
+        "key": "2025100609292779000_c55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1191",
+        "DOI": "10.1137/20M1383276",
+        "article-title": "Wide-band butterfly network: Stable and efficient inversion via multi-frequency neural networks",
+        "volume": "20",
+        "year": "2022",
+        "journal-title": "Multiscale Model. Simul."
+      },
+      {
+        "key": "2025100609292779000_c56",
+        "doi-asserted-by": "publisher",
+        "first-page": "092017",
+        "DOI": "10.1088/1742-6596/2767/9/092017",
+        "article-title": "Reconstruction of dynamic wind turbine wake flow fields from virtual Lidar measurements via physics-informed neural networks",
+        "volume": "2767",
+        "year": "2024",
+        "journal-title": "J. Phys."
+      },
+      {
+        "key": "2025100609292779000_c57",
+        "doi-asserted-by": "publisher",
+        "first-page": "116641",
+        "DOI": "10.1016/j.apenergy.2021.116641",
+        "article-title": "Spatiotemporal wind field prediction based on physics-informed deep learning and LIDAR measurements",
+        "volume": "288",
+        "year": "2021",
+        "journal-title": "Appl. Energy"
+      },
+      {
+        "key": "2025100609292779000_c58",
+        "doi-asserted-by": "publisher",
+        "first-page": "123719",
+        "DOI": "10.1016/j.apenergy.2024.123719",
+        "article-title": "A framework of data assimilation for wind flow fields by physics-informed neural networks",
+        "volume": "371",
+        "year": "2024",
+        "journal-title": "Appl. Energy"
+      },
+      {
+        "key": "2025100609292779000_c59",
+        "unstructured": "D. P.\n            Kingma\n           and J.Ba, “Adam: A method for stochastic optimization,” arXiv:1412.6980 (2014)."
+      },
+      {
+        "key": "2025100609292779000_c60",
+        "doi-asserted-by": "publisher",
+        "first-page": "035158",
+        "DOI": "10.1063/5.0256953",
+        "article-title": "Innovative sparse data reconstruction approaches for yawed wind turbine wake flow via data-driven and physics-informed machine learning",
+        "volume": "37",
+        "year": "2025",
+        "journal-title": "Phys Fluids"
+      },
+      {
+        "key": "2025100609292779000_c61",
+        "doi-asserted-by": "publisher",
+        "first-page": "121552",
+        "DOI": "10.1016/j.renene.2024.121552",
+        "article-title": "Wind turbine dynamic wake flow estimation (DWFE) from sparse data via reduced-order modeling-based machine learning approach",
+        "volume": "237",
+        "year": "2024",
+        "journal-title": "Renewable Energy"
+      },
+      {
+        "key": "2025100609292779000_c62",
+        "doi-asserted-by": "publisher",
+        "first-page": "1482",
+        "DOI": "10.3390/en13061482",
+        "article-title": "LSTM-NN yaw control of wind turbines based on upstream wind information",
+        "volume": "13",
+        "year": "2020",
+        "journal-title": "Energies"
+      }
+    ],
+    "container-title": [
+      "Physics of Fluids"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0292127/20734506/105114_1_5.0292127.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0292127/20734506/105114_1_5.0292127.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2025-10-06T13:29:39Z",
+      "timestamp": 1759757379000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.aip.org/pof/article/37/10/105114/3366450/Sparse-wind-turbine-wake-reconstruction-using"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1063/5.0292127",
+    "relation": {},
+    "ISSN": [
+      "1070-6631",
+      "1089-7666"
+    ],
+    "issn-type": [
+      {
+        "value": "1070-6631",
+        "type": "print"
+      },
+      {
+        "value": "1089-7666",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "article-number": "105114"
+  }
+}

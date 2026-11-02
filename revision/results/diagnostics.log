@@ -1,0 +1,79 @@
+{
+  "rank_sensitivity": [
+    {
+      "modes": 1,
+      "retained_training_energy": 0.4828642799146456,
+      "train_projection_rmse_m_s": 0.7026049753258371,
+      "validation_projection_rmse_m_s": 1.5040735487272845,
+      "test_projection_rmse_m_s": 1.8336304893937563
+    },
+    {
+      "modes": 2,
+      "retained_training_energy": 0.6542464203379604,
+      "train_projection_rmse_m_s": 0.5745029922149416,
+      "validation_projection_rmse_m_s": 1.4933499542137472,
+      "test_projection_rmse_m_s": 1.8133956618470657
+    },
+    {
+      "modes": 4,
+      "retained_training_energy": 0.8272672651396445,
+      "train_projection_rmse_m_s": 0.4060656723649249,
+      "validation_projection_rmse_m_s": 1.4644940440019334,
+      "test_projection_rmse_m_s": 1.8047743114280075
+    },
+    {
+      "modes": 8,
+      "retained_training_energy": 0.9479047741365015,
+      "train_projection_rmse_m_s": 0.22300156714237263,
+      "validation_projection_rmse_m_s": 1.4337042067969819,
+      "test_projection_rmse_m_s": 1.790461178833318
+    },
+    {
+      "modes": 16,
+      "retained_training_energy": 0.9944940107098563,
+      "train_projection_rmse_m_s": 0.07249810144449587,
+      "validation_projection_rmse_m_s": 1.4087341041042525,
+      "test_projection_rmse_m_s": 1.7786826810308192
+    },
+    {
+      "modes": 32,
+      "retained_training_energy": 0.999552483045845,
+      "train_projection_rmse_m_s": 0.02066872557364439,
+      "validation_projection_rmse_m_s": 1.3809626659401872,
+      "test_projection_rmse_m_s": 1.7639157431708292
+    },
+    {
+      "modes": 64,
+      "retained_training_energy": 0.9999198668764403,
+      "train_projection_rmse_m_s": 0.008746111069286315,
+      "validation_projection_rmse_m_s": 1.3615794290872874,
+      "test_projection_rmse_m_s": 1.7155588031164992
+    },
+    {
+      "modes": 96,
+      "retained_training_energy": 0.9999795196659118,
+      "train_projection_rmse_m_s": 0.004421579833946721,
+      "validation_projection_rmse_m_s": 1.3504599094413046,
+      "test_projection_rmse_m_s": 1.700522338884007
+    },
+    {
+      "modes": 119,
+      "retained_training_energy": 0.9999999999999998,
+      "train_projection_rmse_m_s": 9.425982221546799e-13,
+      "validation_projection_rmse_m_s": 1.3482065368645522,
+      "test_projection_rmse_m_s": 1.6977795757044016
+    }
+  ],
+  "shift": {
+    "mean_field_change_rmse_m_s": 1.8169785738340094,
+    "training_mean_speed_m_s": 8.061108740403855,
+    "test_mean_speed_m_s": 7.507497188195329,
+    "train_temporal_rms_m_s": 0.9770323697153088,
+    "test_temporal_rms_m_s": 0.5795553748441712,
+    "out_of_training_sensor_range_fraction": 0.52375,
+    "projection_mean_shift_mse": 2.8339546927833434,
+    "projection_fluctuation_mse": 0.32975738701563906,
+    "projection_total_mse": 3.163712079798983
+  },
+  "warning": "Descriptive same-record diagnostics; no independent stationarity or causal test. Ranks are not selected using test error."
+}

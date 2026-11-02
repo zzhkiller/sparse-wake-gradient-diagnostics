@@ -1,0 +1,146 @@
+[
+  {
+    "name": "DTU_LES_data_wake_60s_part1.mat",
+    "path": "DTU_LES_data_wake_60s_part1.mat",
+    "sha": "1f344f3a572848e6d76e59ad28e366db77fe0891",
+    "size": 65690176,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/DTU_LES_data_wake_60s_part1.mat?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/DTU_LES_data_wake_60s_part1.mat",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/1f344f3a572848e6d76e59ad28e366db77fe0891",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/DTU_LES_data_wake_60s_part1.mat",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/DTU_LES_data_wake_60s_part1.mat?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/1f344f3a572848e6d76e59ad28e366db77fe0891",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/DTU_LES_data_wake_60s_part1.mat"
+    }
+  },
+  {
+    "name": "DTU_LES_data_wake_60s_part2.mat",
+    "path": "DTU_LES_data_wake_60s_part2.mat",
+    "sha": "4c00be5fde3379ebd531b828bad591b9e46cd33c",
+    "size": 65641558,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/DTU_LES_data_wake_60s_part2.mat?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/DTU_LES_data_wake_60s_part2.mat",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/4c00be5fde3379ebd531b828bad591b9e46cd33c",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/DTU_LES_data_wake_60s_part2.mat",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/DTU_LES_data_wake_60s_part2.mat?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/4c00be5fde3379ebd531b828bad591b9e46cd33c",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/DTU_LES_data_wake_60s_part2.mat"
+    }
+  },
+  {
+    "name": "NS2D_InformedNN.py",
+    "path": "NS2D_InformedNN.py",
+    "sha": "ed21044b67c054dd1d3182e74d3cc97cd20e3c00",
+    "size": 2480,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/NS2D_InformedNN.py?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/NS2D_InformedNN.py",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/ed21044b67c054dd1d3182e74d3cc97cd20e3c00",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/NS2D_InformedNN.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/NS2D_InformedNN.py?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/ed21044b67c054dd1d3182e74d3cc97cd20e3c00",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/NS2D_InformedNN.py"
+    }
+  },
+  {
+    "name": "NeuralNetworkSetup.py",
+    "path": "NeuralNetworkSetup.py",
+    "sha": "de5a4fb073db79d7ed7738f2a59feab88de7ee11",
+    "size": 5299,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/NeuralNetworkSetup.py?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/NeuralNetworkSetup.py",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/de5a4fb073db79d7ed7738f2a59feab88de7ee11",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/NeuralNetworkSetup.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/NeuralNetworkSetup.py?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/de5a4fb073db79d7ed7738f2a59feab88de7ee11",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/NeuralNetworkSetup.py"
+    }
+  },
+  {
+    "name": "Readme",
+    "path": "Readme",
+    "sha": "9b189861072c074217e0bdba8e6ef3b5015ff9dd",
+    "size": 770,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/Readme?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/Readme",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/9b189861072c074217e0bdba8e6ef3b5015ff9dd",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/Readme",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/Readme?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/9b189861072c074217e0bdba8e6ef3b5015ff9dd",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/Readme"
+    }
+  },
+  {
+    "name": "custom_lbfgs.py",
+    "path": "custom_lbfgs.py",
+    "sha": "724701947b3c0760acf11196ac463d4a88361f08",
+    "size": 6483,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/custom_lbfgs.py?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/custom_lbfgs.py",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/724701947b3c0760acf11196ac463d4a88361f08",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/custom_lbfgs.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/custom_lbfgs.py?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/724701947b3c0760acf11196ac463d4a88361f08",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/custom_lbfgs.py"
+    }
+  },
+  {
+    "name": "logger.py",
+    "path": "logger.py",
+    "sha": "30d2371436ea7dfe0730a119607c8ab31777d802",
+    "size": 1971,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/logger.py?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/logger.py",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/30d2371436ea7dfe0730a119607c8ab31777d802",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/logger.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/logger.py?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/30d2371436ea7dfe0730a119607c8ab31777d802",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/logger.py"
+    }
+  },
+  {
+    "name": "main_PINN_WFR_example.py",
+    "path": "main_PINN_WFR_example.py",
+    "sha": "183dd3ecc776f8a734df7649eff75824bda0ed4e",
+    "size": 12278,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/main_PINN_WFR_example.py?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/main_PINN_WFR_example.py",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/183dd3ecc776f8a734df7649eff75824bda0ed4e",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/main_PINN_WFR_example.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/main_PINN_WFR_example.py?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/183dd3ecc776f8a734df7649eff75824bda0ed4e",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/main_PINN_WFR_example.py"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "requirements.txt",
+    "sha": "80a6ee35a43d9b204213fb207de424bd86e70e2c",
+    "size": 1418,
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/requirements.txt?ref=main",
+    "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/requirements.txt",
+    "git_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/80a6ee35a43d9b204213fb207de424bd86e70e2c",
+    "download_url": "https://raw.githubusercontent.com/fengguoFUAS/PINN-Lidar-WFR/main/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/requirements.txt?ref=main",
+      "git": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/blobs/80a6ee35a43d9b204213fb207de424bd86e70e2c",
+      "html": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/main/requirements.txt"
+    }
+  }
+]

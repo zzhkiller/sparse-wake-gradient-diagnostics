@@ -1,0 +1,101 @@
+{
+  "sha": "dda521625a96dce48f138f53b512fdf82db0a266",
+  "node_id": "C_kwDON6vN5toAKGRkYTUyMTYyNWE5NmRjZTQ4ZjEzOGY1M2I1MTJmZGY4MmRiMGEyNjY",
+  "commit": {
+    "author": {
+      "name": "FengGuoSJTU",
+      "email": "62547702+fengguoFUAS@users.noreply.github.com",
+      "date": "2026-02-03T09:29:32Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-02-03T09:29:32Z"
+    },
+    "message": "Update Readme",
+    "tree": {
+      "sha": "9ca3f9c03c96d27e1c5c5f27875f53632fed684a",
+      "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/trees/9ca3f9c03c96d27e1c5c5f27875f53632fed684a"
+    },
+    "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/git/commits/dda521625a96dce48f138f53b512fdf82db0a266",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpgb/8CRC1aQ7uu5UhlAAAj74QAA5qN5tvXPs1kqRZ4SOkXL09\nWQGBIeSNuNan5wDz9IP+C2arQRmxuRNx04QBuM8J346IDeDxX+ktcVpHL9VqF7VB\ntCAsbr7QHgpdidBzdZfiliWS3KS1fTdk4RTfuyDfHhkN9Yfk/lGKg2Ue/aQXO1SM\ng/uJvAJVjRb+INoWULit/bRWdTVRpHGzPZFdBz22SdHpmgVWVhm2+tZtXPZTZBKK\nG/W+1tNY4ouXj/Lauh9ZjU9ZlizY0oJOyutQuSCFcyFzTs4xYkORLHSGtOiAqk0r\nSWXU/J8UL1/M2kVq1m7/ZIX+HyBVtaP4x+oDLhBdN3XtbPYdpjEWf6CAYCbH4AQU\n1cdDwQ+oBQCZ9MWF9ln7czOnJ0sk86rzHKds0GPeAJnYF72BOcp/OizMAzgGGALE\nrUKyiE9bQ/HSTYL8DA5vxhKJ0Epj1w+Ru6bWYALWXqoQqQOgzHyr9NvdSphwvP+V\ndmMXq1Wtl/Qw803xsZySjOglywx1dWvxv/6h7h4/2rNkQGlQxlzfOHaEoXFhcwNB\nisUGR4quyxgR4xbDXlfk2zl58ULH6NSNYKSZ9PclhUA8yMeBnwK06puHLWEQtG46\nOLua2GKegSHfu5Qj3z1QIX25cgvemXhdTTWZ7MIF378V9jClysKIAx6ToE+02MXd\n7JDl7NYVs7V8OegH2p8a\n=khSm\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 9ca3f9c03c96d27e1c5c5f27875f53632fed684a\nparent bfd1088af5486ecfee0d7e85b275ad0754c0f30d\nauthor FengGuoSJTU <62547702+fengguoFUAS@users.noreply.github.com> 1770110972 +0800\ncommitter GitHub <noreply@github.com> 1770110972 +0800\n\nUpdate Readme",
+      "verified_at": "2026-02-03T09:29:33Z"
+    }
+  },
+  "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/commits/dda521625a96dce48f138f53b512fdf82db0a266",
+  "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/commit/dda521625a96dce48f138f53b512fdf82db0a266",
+  "comments_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/commits/dda521625a96dce48f138f53b512fdf82db0a266/comments",
+  "author": {
+    "login": "fengguoFUAS",
+    "id": 62547702,
+    "node_id": "MDQ6VXNlcjYyNTQ3NzAy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/62547702?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fengguoFUAS",
+    "html_url": "https://github.com/fengguoFUAS",
+    "followers_url": "https://api.github.com/users/fengguoFUAS/followers",
+    "following_url": "https://api.github.com/users/fengguoFUAS/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fengguoFUAS/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fengguoFUAS/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fengguoFUAS/subscriptions",
+    "organizations_url": "https://api.github.com/users/fengguoFUAS/orgs",
+    "repos_url": "https://api.github.com/users/fengguoFUAS/repos",
+    "events_url": "https://api.github.com/users/fengguoFUAS/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fengguoFUAS/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "bfd1088af5486ecfee0d7e85b275ad0754c0f30d",
+      "url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/commits/bfd1088af5486ecfee0d7e85b275ad0754c0f30d",
+      "html_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/commit/bfd1088af5486ecfee0d7e85b275ad0754c0f30d"
+    }
+  ],
+  "stats": {
+    "total": 17,
+    "additions": 13,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "9b189861072c074217e0bdba8e6ef3b5015ff9dd",
+      "filename": "Readme",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 4,
+      "changes": 17,
+      "blob_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/blob/dda521625a96dce48f138f53b512fdf82db0a266/Readme",
+      "raw_url": "https://github.com/fengguoFUAS/PINN-Lidar-WFR/raw/dda521625a96dce48f138f53b512fdf82db0a266/Readme",
+      "contents_url": "https://api.github.com/repos/fengguoFUAS/PINN-Lidar-WFR/contents/Readme?ref=dda521625a96dce48f138f53b512fdf82db0a266",
+      "patch": "@@ -1,7 +1,16 @@\n-Thank you for your interest in the paper and the code. I am currently quite occupied with other commitments.\n+# A baseline example of wind field reconstruction using nacelle lidar measurement and physics-informed neural network\n+# Feng Guo @ Shanghai Jiao Tong University  3 Feb. 2026\n+# This method is presented in the Paper:\n+# On Wind Directions Estimated by Nacelle Lidar UnderDifferent Reconstruction Methods, Wind Energy\n+# https://onlinelibrary.wiley.com/doi/epdf/10.1002/we.70098\n \n-I will organize the code and add comments where necessary to improve readability. I expect to publish the initial release within the next 10 days.\n+# Note: This code is intended for demonstration purposes only.\n+# It has been tested only for the non-yawed case and does not account for sequential lidar scanning. \n \n-Best regards,\n-Feng Guo\n+# Please install the dependenies in the requirements.txt first.\n+\n+# Hope this code is helpful for your investigation.\n+# Please cite this paper if you find this code helpful for your research.\n+\n+Author: Feng Guo\n fengguo@sjtu.edu.cn"
+    }
+  ]
+}
